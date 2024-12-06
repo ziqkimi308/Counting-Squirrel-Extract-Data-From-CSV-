@@ -9,10 +9,14 @@
 ********************************************************************************
 """
 
+# IMPORT
 import pandas
 
+# CONSTANT
+SQUIRREL_CENSUS_DATA_CSV = "./2018-Central-Park-Squirrel-Census-Squirrel-Data.csv"
+
 # Read csv
-data = pandas.read_csv("2018-Central-Park-Squirrel-Census-Squirrel-Data.csv")
+data = pandas.read_csv(SQUIRREL_CENSUS_DATA_CSV)
 
 # Specifies data
 grey_count = len(data[data["Primary Fur Color"] == "Gray"])
