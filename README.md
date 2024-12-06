@@ -1,6 +1,4 @@
-# Project: I Am Learning Python
-
-### Counting Squirrel
+# Counting Squirrel
 
 - The Counting Squirrel project demonstrates how to extract and analyze data from a CSV file. It reads squirrel census data from Central Park and counts the number of squirrels for each fur color. The result is stored in a new CSV file containing the counts of squirrels based on their fur color.
 
